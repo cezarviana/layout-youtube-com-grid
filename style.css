@@ -2,4 +2,46 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7F7F7;
+}
+
+.container{
+    display: grid;
+    max-width: 900px;
+    grid:
+    "destaque destaque propaganda"
+    "destaque destaque video-lateral"
+    ". . video-lateral";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+}
+
+.propaganda{
+    background-color:#C4C4C4;
+    height: 56px;
+    width: 270px;
+    text-align: center;
+}
+
+.videos-laterais{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.video-lateral{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.info-lateral{
+    font-size: 11px;
+    width: 169px;
+}
+
+.info-lateral h2{
+    font-size: 14px;
+    font-weight: 700;
 }
