@@ -21,8 +21,9 @@ O desafio é criar um layout similar ao do YouTube. Para aprimorar as habilidade
 
 ## Imagens do Design criado
 <div align="center">
-<img src="imagem/layout-criado.png"  style="height: 300px; text-align: center;"> <br>
+<img src="imagem/layout-criado.png"  style="height: 300px; text-align: center;"> 
 </div>
+
 ## Tecnologias utilizadas
 - HTML
 - CSS
